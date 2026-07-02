@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aroma - ონლაინ მაღაზია</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="burger-menu" id="burgerToggle">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        
+        <a href="./index.html" class="logo">Aroma</a>
+
+        <nav class="nav-links">
+            <a href="./index.html" class="active">მთავარი</a>
+            <a href="./menu.html">მენიუ</a>
+            <a href="./about.html">ჩვენი ისტორია</a>
+            <a href="./location.html">ლოკაციები</a>
+        </nav>
+            <a href="cart.html"><img src="./imgs/cartticon.jpg" alt="cart_icon"></a>
+    </header>
+
+    <main>
+        <section class="hero-section">
+            <div class="hero-content">
+                <h1>აღმოაჩინეთ ყავის ნამდვილი გემო</h1>
+                <p>მოპოვებული საუკეთესო მაღალმთიანი ფერმებიდან, ჩვენი არომატული ნაზავი შექმნილია თქვენი გრძნობების გასაღვიძებლად და ყოველდღიური რიტუალის ასამაღლებლად.</p>
+                <a class="btn-primary" href="./menu.html">მენიუს ნახვა</a>
+            </div>
+            <div class="hero-image">
+                <img src="./imgs/hero-background.jpg" alt="Latte Art Coffee">
+            </div>
+        </section>
+
+        <section class="products-section">
+            <div class="section-header">
+                <h2>ჩვენი საფირმო მოხალული ყავა</h2>
+                <p>გამოცდილი ექსპერტებით შერჩეული მარცვლების ნაზავი, რომელიც იხალება მცირე პარტიებად მათი უნიკალური გემოს შესანარჩუნებლად.</p>
+            </div>
+
+            <div class="products-grid">
+                <div class="product-card">
+                    <div class="product-img">
+                        <img src="./imgs/roasts1.jpg" alt="ეთიოპიური ორგანული">
+                    </div>
+                    <div class="product-info">
+                        <h3>ეთიოპიური ორგანული</h3>
+                        <p class="description">ყვავილოვანი ნოტები, ნათელი ციტრუსი, მსუბუქი სხეული.</p>
+                        <div class="product-footer">
+                            <span class="price">64.00₾</span>
+                            <button class="add-btn">+</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-img">
+                        <img src="./imgs/roasts2.jpg" alt="კოლუმბიური სუპრემო">
+                    </div>
+                    <div class="product-info">
+                        <h3>კოლუმბიური სუპრემო</h3>
+                        <p class="description">კარამელი, შოკოლადი, დაბალანსებული მჟავიანობა.</p>
+                        <div class="product-footer">
+                            <span class="price">62.00₾</span>
+                            <button class="add-btn">+</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-img">
+                        <img src="./imgs/roasts4.jpg" alt="სუმატრა მანდელინგი">
+                    </div>
+                    <div class="product-info">
+                        <h3>სუმატრა მანდელინგი</h3>
+                        <p class="description">მიწისებრი, კომპლექსური, სრული სხეული.</p>
+                        <div class="product-footer">
+                            <span class="price">76.00₾</span>
+                            <button class="add-btn">+</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-img">
+                        <img src="./imgs/roasts3.jpg" alt="სახლის ესპრესოს ნაზავი">
+                    </div>
+                    <div class="product-info">
+                        <h3>სახლის ესპრესოს ნაზავი</h3>
+                        <p class="description">მდიდარი კრემა, მუქი კაკაო, ტკბილი დასასრული.</p>
+                        <div class="product-footer">
+                            <span class="price">60.00₾</span>
+                            <button class="add-btn">+</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-left">
+            <div class="footer-logo">არომატული ყავა</div>
+            <div class="copyright">© 2024 Aroma Coffee</div>
+        </div>
+        <div class="footer-links">
+            <a href="#">კონფიდენციალურობა</a>
+            <a href="#">წესები და პირობები</a>
+            <a href="#">კონტაქტი</a>
+        </div>
+    </footer>
+    <script src="./script.js"></script>
+    <div id="cookieBanner" class="cookie-banner hidden">
+    <p>ჩვენ ვიყენებთ ქუქი-ფაილებს საუკეთესო გამოცდილების მისაღებად. <a href="#">გაიგეთ მეტი</a>.</p>
+    <button id="acceptCookies" class="cookie-btn">ვეთანხმები</button>
+</div>
+</body>
+</html>
